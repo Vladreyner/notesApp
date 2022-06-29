@@ -51,7 +51,7 @@ export default {
       let noteTitle = "New note #" + (this.notes.length + 1);
       let localNote = {
         title: noteTitle,
-        text: "Your",
+        text: "Your new note! Press edit button and say something to the World!",
         date: createDate,
       };
       this.notes.unshift(localNote);
